@@ -38,6 +38,7 @@ body {
   
   html {
       font-size: 62.5%; 
+      scroll-behavior: smooth;
   }
   @media screen and (max-width: 700px) { 
     html {
@@ -274,27 +275,25 @@ body {
 .main-sections{
     display: flex;
     width: 100%;
-    height: 100vh;
 }
 
 .sidebar{
     flex-basis: 18%;
-    height: 100%;
-    position: relative;
+    
 }
 
 .sidebar__content{
     top: 8rem;
     position: sticky;
-    height: 80%;
     border: 2px solid #eee;
     box-shadow: 0 2px 3px #ccc;
     margin-left: 2rem;
+    padding: 5rem 0;
 }
 .sidebar__nav{
 
 }
-.sidebar__nav a{
+.sidebar__nav-link{
     text-decoration: none;
     color: white;
 }
@@ -338,6 +337,29 @@ body {
 .nav-icon{
     font-size: 2rem;
 }
+
+
+.sidebar__nav-link,.sidebar__nav-link:link{
+    text-decoration: none;
+    color: white;
+}
+
+.sidebar__nav-link:visited{
+    text-decoration: none;
+    color: white;
+}
+
+.sidebar__nav-link:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.sidebar__nav-link:active{
+    text-decoration: none;
+    color: white;
+}
+
+
 .sidebar__nav-item:hover .sidebar__nav-item--title{
     color: rgb(255,46,115);
 }
@@ -351,27 +373,31 @@ body {
 
 
 
-.sidebar__nav-item:active{
+.sidebar__nav-link:active{
     background-color: rgb(255,46,115);
 }
-.sidebar__nav-item:active .sidebar__nav-item--title{
+.sidebar__nav-link:active .sidebar__nav-item--title{
     color: white;
 }
-.sidebar__nav-item:active .sidebar__nav-item--options{
+.sidebar__nav-link:active .sidebar__nav-item--options{
     color: white;
 }
-.sidebar__nav-item:active .sidebar__nav-item--avatar{
+.sidebar__nav-link:active .sidebar__nav-item--avatar{
     background-color: white;
 }
-.sidebar__nav-item:active .nav-icon{
+.sidebar__nav-link:active .nav-icon{
     color:rgb(255,46,115);
+}
+
+.sidebar__nav-item:target{
+    background-color: rgb(255,46,115);
 }
 
 
 
 
 .sections-list{
-    padding: 5rem;
+    padding: 5rem 5rem 0 5rem;
 }
 .section-title{
     padding: 3rem 0;
@@ -379,15 +405,33 @@ body {
 }
 .sections-list{
     flex-basis: 82%;
+    height: auto;
+}
+
+.section{
+}
+.section-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(25rem,1fr)); 
+    grid-gap: 1rem;
+    grid-auto-rows: min-content;   
 }
 
 .section-grid{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(25rem,1fr));    
-}
+    grid-template-columns: repeat(auto-fill, minmax(25rem,1fr)); 
+  }
+  .one{
+    padding:10px;
+    border: 1px solid grey;
+    transition: all .2s;
+    background-color: white;
+  }
+
 .section-grid-item{
     border: 1px solid transparent;
     transition: all .2s;
+    background-color: white;
 }
 .section-grid-item:hover{
     border: 1px solid #ccc;
@@ -473,4 +517,9 @@ body {
     text-decoration: none;
     color: lightskyblue;
     font-weight: 800;
+}
+
+.test{
+    width: 100%;
+    height: 50vh;
 }
