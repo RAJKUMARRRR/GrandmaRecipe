@@ -523,3 +523,297 @@ body {
     width: 100%;
     height: 50vh;
 }
+
+
+.restaurant__details{
+    display: flex;
+    align-items: center;
+    background-color: rgb(40,44,63);
+}
+.restaurant__image-box{
+    width: 25rem;
+    margin: 3rem;
+    margin-left: 5rem;
+}
+.restaurant__image{
+    display: block;
+    width: 100%;
+}
+.restaurant__name{
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.restaurant__address{
+    color: rgba(255,255,255,.5);
+    font-size: 1.3rem;
+}
+.restaurant__tagline{
+    color: rgba(255,255,255,.5);
+    font-size: 1.3rem;
+    margin-top: .5rem;
+}
+.delivery{
+    display: flex;
+    margin-top: 1rem;
+    justify-content: flex-start;
+}
+.delivery__rating--text{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.delivery__rating--icon{
+    color: white;
+    font-size: 1.2rem;
+    margin-right: .3rem;
+}
+
+.delivery__rating{
+    padding: 0 2rem;
+}
+
+
+.delivery__rating:first-child{
+    padding-right: 2rem;
+    padding-left: 0;
+}
+
+.delivery__rating:not(:last-child){
+    border-right: 1px solid rgba(255,255,255,.5);
+}
+
+.delivery__rating--tagline{
+    color: rgba(255,255,255,.5);
+    font-size: 1.1rem;
+    margin-top: .5rem;
+}
+
+.delivery__rating--text-box{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.restaurant__main{
+    display: flex;
+}
+.restaurant__menu{
+    flex-basis: 70%;
+}
+.restaurant__menu{
+}
+
+
+
+
+.restaurant__menu--nav{
+    display: flex;
+    margin: 1rem 5rem;
+    align-items: center;
+    background-color: white;
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: 0 0 3px #ccc;
+    padding: 0 .5rem;
+}
+.restaurant__menu--nav-left_arrow,.restaurant__menu--nav-right_arrow{
+    font-size: 3rem;
+    color: rgb(255,46,115);
+}
+.restaurant__menu--nav-items{
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+
+.restaurant__menu--nav-item,.restaurant__menu--nav-item:link{
+    padding: 1rem 1rem;
+    margin: 0 .2rem;
+    text-decoration: none;
+    font-size: 1.7rem;
+    color: black;
+    border-bottom: 3px solid transparent;
+}
+
+.restaurant__menu--nav-item:hover{
+    border-bottom: 3px solid grey;
+}
+.restaurant__menu--nav-item:active,.restaurant__menu--nav-item:visited{
+    border-bottom: 3px solid rgb(255,46,115);
+}
+.restaurant__menu--nav-search{
+    background-color: #f1f1f1;
+    align-self: stretch;
+    margin: .5rem 0 .5rem .5rem;
+    border: 1px solid #eee;
+    border-radius: 5px;    
+    display: flex;
+    align-items: center;
+    padding: 0 .5rem;
+    color: grey;
+}
+.restaurant__menu--nav-search__icon{
+    color: inherit;
+    font-size: 1.2rem;
+}
+.restaurant__menu--nav-search__input{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-size: 1.5rem;
+    color: inherit;
+}
+
+
+
+
+
+
+.restaurant__menu__list{
+    margin: 0 5rem;
+}
+.restaurant__menu__section{
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: 0 0 3px #ccc;
+    margin-top: 2rem;
+}
+.restaurant__menu__section--title{
+    font-size: 2rem;
+    padding: .5rem;
+    border-bottom: 1px solid #eee;
+}
+.restaurant__menu__section--item{
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 1px solid #eee;
+}
+.restaurant__menu__section--item-icon{
+    color: green;
+    font-size: 1.5rem;
+    padding: .8rem .5rem .5rem .5rem;
+}
+.restaurant__menu__section--item-details{
+    margin-left: .5rem;
+    margin-right: auto;
+}
+.restaurant__menu__section--item-title{
+    font-size: 1.8rem;
+    padding-top: .5rem
+}
+.restaurant__menu__section--item-price{
+    font-size: 1.3rem;    
+}
+.restaurant__menu__section--item-description{
+    color: grey;
+    padding: .3rem;
+}
+.restaurant__menu__section--item-customization{
+    color: #30231d;
+    padding: 0rem 0 .8rem 0;;
+}
+
+.restaurant__menu__section--item__add{
+    border: 1px solid #ccc;
+    background-color: transparent;
+    border-radius: 1px;
+    align-self: center;
+    padding: .5rem 2rem;
+    margin-right: 1rem;
+    color: green;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.restaurant__cart{
+    flex-basis: 30%;
+}
+.restaurant__cart__wrapper{
+    top: 0;
+    width: 80%;
+    margin: 2rem 2rem 2rem 0;
+    height: 50vh;
+    position: sticky;
+}
+.restaurant__cart__title{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.restaurant__cart__total-items{
+    color: grey;
+}
+.restaurant__cart__items{
+    margin: 2rem 0;
+    max-height: 15rem;
+    overflow-y: scroll;
+}
+.restaurant__cart__item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+}
+.restaurant__cart__item__type-icon{
+    color: green;
+    align-self: flex-start;
+    padding:.4rem 0;
+}
+.restaurant__cart__item__recipe{
+    flex-grow: 1;
+    font-size: 1.3rem;
+    padding: 0 .5rem;
+    align-self: flex-start;
+}
+.restaurant__cart__item__add-remove-box{
+    display: flex;
+    align-items: center;
+    color: green;
+    justify-content: space-between;
+    border: 1px solid green;
+    padding: .5rem 1rem;;
+    margin: 0 1rem;
+}
+.restaurant__cart__item__add-remove-box  *{
+    padding: .2rem .4rem;
+}
+
+.restaurant__cart__total-price{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+.restaurant__cart__total-price__text{
+
+}
+.restaurant__cart__extra-charges{
+    color: grey;
+    font-weight: 600;
+}
+.restaurant__cart__checkout-button{
+    outline: none;
+    background-color: green;
+    text-align: center;
+    padding: 1rem 6rem;
+    border: none;
+    color: white;
+    font-weight: 800;
+    margin-top: 2rem;
+}
+.restaurant__cart__item__price{
+    font-size: 1.2rem;
+    padding-left: 1rem;
+}
