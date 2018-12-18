@@ -817,3 +817,458 @@ body {
     font-size: 1.2rem;
     padding-left: 1rem;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.auth__main{
+}
+.auth__main__backdrop{
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-image: radial-gradient(circle at 51% 45%,#2d3b47,#0e1017);
+    width: 100%;
+    height: 100vh;
+}
+.auth__modal{
+    position: absolute;
+    width: 33rem;
+    background-color: white;
+    border-radius: 5px;
+    padding: 2rem 0;
+    margin: 4rem auto;
+    z-index: 100;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+
+
+.login__main{
+    position: relative;
+    padding: 3rem;
+}
+.login__close{
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 0rem 1rem 0 0;
+    font-size: 1.5rem;
+}
+.login__logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.login__logo_image{
+
+}
+.login__logo__title{
+    display: block;
+    font-size: 3rem;
+    width: 80%;
+    text-align: center;
+    margin: 1.5rem 0;
+}
+.login__google,.login__facebook{
+    text-align: center;
+    background-color: rgb(224,83,67);
+    border-radius: 100px;
+    padding: 1rem 0;
+    color: white;
+    margin-top: 1.5rem;
+}
+.login__google span,.login__facebook span{
+    padding-left: 2rem;
+}
+.login__facebook{
+    background-color: rgb(62,88,164);
+}
+.login__actions{
+    display: flex;
+    margin-top: 1.5rem;
+}
+.login__actions *{
+    text-align: center;
+    flex-basis: 50%;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 1rem 0;
+}
+.login__actions *:first-child{
+    border-right: 1px solid grey;
+}
+.login__terms{
+    display: flex;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+.login__terms__icon{
+    color: green;
+    font-size: 1.5rem;
+}
+.login__terms__text{
+    color: grey;
+    padding-left: 1rem;
+}
+
+
+
+.auth__login{
+    position: relative;
+    padding: 0 3rem;
+}
+.auth__login__input{
+    display: block;
+    width: 100%;
+    height: 3rem;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid grey;
+    font-size: 1.3rem;
+    margin-top: 2.5rem;
+}
+.auth__submit__box{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10rem;
+}
+.auth__forgot__password{
+    color: black;
+}
+
+.auth__submit{
+    color: white;
+    font-size: 1.2rem;
+    background-color: rgb(255,46,115);
+    padding: 1rem 3rem;
+    border: none;
+    outline: none;
+}
+.auth__login__back{
+    color: rgb(255,46,115);
+    font-size: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.checkout{
+    width: 100%;
+    height: 100vh;
+    background-color: #f7f7f7;
+}
+.checkout__wrapper{
+    display: flex;
+    align-items: flex-start;
+    position: absolute;
+    width: 65%;
+    z-index: 100;
+    left: 50%;
+    transform: translate(-50%);
+
+}
+.checkout__backdrop{
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #f7f7f7;
+    width: 100%;
+    height: 100vh;
+}
+
+.checkout__payment{
+    background-color: white;
+    border: 1px solid #f1f1f1;
+    flex-basis: 70%;
+    border-radius: 5px;
+    padding: 1.5rem;
+    margin: 1rem 1rem 0 0;
+}
+.checkout__payment__title{
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+.checkout__payment__wallet{
+    margin-top: 1.5rem;
+}
+.checkout__payment__wallet__selection{
+
+}
+.checkout__payment__wallet__list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(13rem,1fr));
+    margin-top: 1rem;
+}
+.checkout__payment__wallet__list__item{
+    border: 2px solid green;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 3px 4px #ccc;
+}
+.checkout__payment__wallet__list__item__image-box{
+    width: 6rem;
+}
+.checkout__payment__wallet__list__item__image{
+    width: 100%;
+}
+.checkout__payment__wallet__list__item__title{
+    font-size: 1.2rem;
+}
+.checkout__payment__wallet__list__item__balance{
+    color: green;
+    margin-bottom: 1rem;
+}
+.checkout__payment__wallet__details,.checkout__payment__cards__details{
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-top: 1rem;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.checkout__payment__wallet__details__title{
+    font-size: 1.5rem;
+}
+.checkout__payment__wallet__details__amount{
+}
+.checkout__payment__wallet__details__amount__box{
+    display: flex;
+    margin-top: 1rem;
+    justify-content: flex-start;
+}
+.checkout__payment__wallet__details__amount__input{
+    background-color: white;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    box-shadow: 0 0 3px #ccc;
+    padding: .5rem 0;
+    margin-left: .5rem;
+}
+.checkout__payment__wallet__details__recharge__guideline{
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+.checkout__payment__wallet__details__recharge__button{
+    background-color: green;
+    text-align: center;
+    padding: .7rem 2rem;
+    border-radius: 4px;
+    color: white;
+    margin-top: 1rem;
+}
+
+.checkout__payment__cards__details__row1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkout__payment__cards__details__input__title{
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: rgba(0,0,0,.7);
+}
+.checkout__payment__cards__details__input{
+    background-color: white;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    box-shadow: 0 0 3px #ccc;
+    padding: 1rem .5rem;
+    margin-top: .5rem;
+    width: 100%;
+}
+.checkout__payment__cards__details__card-numer__wrapper{
+    flex-basis: 50%;
+}
+.checkout__payment__cards__details__expiry-date__wrapper{
+    flex-basis: 25%;
+}
+.checkout__payment__cards__details__expiry-date__wrapper input{
+    width: 30%;
+}
+.checkout__payment__cards__details__cvv__wrappe{
+    flex-basis: 25%;
+}
+
+.checkout__payment__cards__details__row2{
+    width: 100%;
+    margin-top: 1rem;
+}
+.checkout__payment__cards__details__row2 input{
+    width: 49.5%;
+}
+.checkout__payment__cards__details__row2__input__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkout__payment__cards__details__row3{
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.checkout__payment__cards__details__row3__col1{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.checkout__payment__cards__details__row3__col2{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.checkout__payment__promocode__input{
+    background-color: white;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    box-shadow: 0 0 3px #ccc;
+    padding: 1rem .5rem;
+    margin-top: .5rem;
+}
+.checkout__payment__promocode__apply{
+    background-color: #ccc;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 1rem 1.5rem;
+    margin-left: .5rem;
+}
+
+.checout__summery{
+    flex-basis: 30%;
+}
+.checout__summery__details,.checout__summery__orders,.checout__summery__billing{  
+    background-color: white;
+    border: 1px solid #f1f1f1;
+    border-radius: 5px;
+    padding: 1.5rem;
+    margin: 1rem 1rem 0 0;
+}
+
+.checout__summery__orders{
+    min-height: 80rem;
+}
+.checout__summery__orders__title{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.checout__summery__orders__list{
+    margin: 1.2rem 0;
+}
+.checout__summery__orders__list__item{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+.checout__summery__orders__list__item__col1{
+    display: flex;
+}
+.checout__summery__orders__list__item__name{
+    font-size: 1.5rem;
+    margin-left: .5rem;
+}
+.checout__summery__orders__list__item__quantity{
+    font-size: 1.1rem;
+    margin-left: .5rem;
+    color: grey;
+}
+.checout__summery__orders__list__item__price{
+    color: grey;
+    font-size: 1.1rem;
+}
+.checout__summery__billing{
+    position: sticky;
+    bottom: 0;
+    width: 97%;
+}
+.checout__summery__billing__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.checout__summery__billing__col1{
+    display: flex;
+    flex-direction: column;
+}
+.checout__summery__billing__col1{
+    display: flex;
+    flex-direction: column;
+}
+.checout__summery__billing__primary{
+    color: grey;
+    font-size: 1.3rem;
+    text-align: right;
+}
+.checout__summery__billing__secondary{
+    color: grey;
+    font-size: 1rem;
+    text-align: right;
+}
+.checout__summery__billing__col1 p{
+    text-align: left;
+}
+.checout__summery__billing__total__bill{
+    display: flex;
+    justify-content: space-between;
+}
