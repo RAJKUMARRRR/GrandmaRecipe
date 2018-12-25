@@ -1,0 +1,71 @@
+.RestaurantDetails{
+    display: flex;
+    align-items: center;
+    background-color: rgb(40,44,63);
+}
+.RestaurantDetailsMain{
+    text-align: left;
+}
+.ImageBox{
+    width: 25rem;
+    margin: 3rem;
+    margin-left: 5rem;
+}
+.Image{
+    display: block;
+    width: 100%;
+}
+.Name{
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.Address{
+    color: rgba(255,255,255,.5);
+    font-size: 1.3rem;
+}
+.Tagline{
+    color: rgba(255,255,255,.5);
+    font-size: 1.3rem;
+    margin-top: .5rem;
+}
+.Delivery{
+    display: flex;
+    margin-top: 1rem;
+    justify-content: flex-start;
+}
+.RatingText{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.RatingIcon{
+    color: white;
+    font-size: 1.2rem;
+    margin-right: .3rem;
+}
+
+.Rating{
+    padding: 0 2rem;
+}
+
+
+.Rating:first-child{
+    padding-right: 2rem;
+    padding-left: 0;
+}
+
+.Rating:not(:last-child){
+    border-right: 1px solid rgba(255,255,255,.5);
+}
+
+.RatingTagline{
+    color: rgba(255,255,255,.5);
+    font-size: 1.1rem;
+    margin-top: .5rem;
+}
+
+.RatingTextBox{
+    display: flex;
+    align-items: center;
+}

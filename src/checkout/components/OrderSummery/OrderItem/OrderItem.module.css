@@ -1,0 +1,27 @@
+.OrdersListItem{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+.OrdersListItemIcon{
+    color: green;
+    align-self: flex-start;
+    padding:.4rem 0;
+}
+
+.OrdersListItemCol1{
+    display: flex;
+}
+.OrdersListItemName{
+    font-size: 1.5rem;
+    margin-left: .5rem;
+}
+.OrdersListItemQuantity{
+    font-size: 1.1rem;
+    margin-left: .5rem;
+    color: grey;
+}
+.OrdersListItemPrice{
+    color: grey;
+    font-size: 1.1rem;
+}

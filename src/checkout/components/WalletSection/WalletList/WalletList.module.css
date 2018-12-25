@@ -1,0 +1,5 @@
+.WalletList{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(13rem,1fr));
+    margin-top: 1rem;
+}

@@ -1,0 +1,41 @@
+.MenuItem{
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 1px solid var(--color-grey-white);
+}
+.Icon{
+    color: var(--color-positive);
+    font-size: 1.5rem;
+    padding: .8rem .5rem .5rem .5rem;
+}
+.Details{
+    margin-left: .5rem;
+    margin-right: auto;
+}
+.MenuItemTitle{
+    font-size: 1.8rem;
+    padding-top: .5rem
+}
+.Price{
+    font-size: 1.3rem;    
+}
+.Description{
+    color: var(--color-grey-dark);
+    padding: .3rem;
+}
+.Customization{
+    color: var(--color-primary-dark);
+    padding: 0rem 0 .8rem 0;;
+}
+
+.Add{
+    border: 1px solid var(--color-grey-light);
+    background-color: transparent;
+    border-radius: 1px;
+    align-self: center;
+    padding: .5rem 2rem;
+    margin-right: 1rem;
+    color: var(--color-positive);
+    font-weight: bold;
+    cursor: pointer;
+}

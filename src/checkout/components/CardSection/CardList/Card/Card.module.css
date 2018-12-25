@@ -1,0 +1,40 @@
+.Card{
+    border: 2px solid green;
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: 0 3px 4px #ccc;
+    padding: 1rem 1rem;
+}
+.ImageBox{
+    width: 3rem;
+}
+.Image{
+    width: 100%;
+}
+.CardDetails{
+    margin-right: auto;
+    margin-left: 1rem;
+}
+.CardName{
+    font-size: 1.2rem;
+}
+.CardNumber{    
+    font-size: 1.3rem;
+    color: var(--color-grey-dark);
+}
+.CVVTitle{
+    font-size: 1.2rem;
+    margin-right: 1rem;
+}
+.CVVInput{
+    background-color: white;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    box-shadow: 0 0 3px #ccc;
+    padding: 1rem .5rem;
+    margin-top: .5rem;
+}
+

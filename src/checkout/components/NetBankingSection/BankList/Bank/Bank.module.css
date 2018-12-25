@@ -1,0 +1,19 @@
+.Bank{
+    border: 2px solid green;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 3px 4px #ccc;
+    padding: 1rem 0;
+}
+.ImageBox{
+    width: 4rem;
+}
+.Image{
+    width: 100%;
+}
+.Title{
+    font-size: 1.2rem;
+}

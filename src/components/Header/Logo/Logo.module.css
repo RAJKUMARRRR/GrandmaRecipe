@@ -1,0 +1,7 @@
+.Logo{
+    padding: 0 2rem;
+    display: flex;
+}
+.LogoText{
+    font-size: 2rem;
+}

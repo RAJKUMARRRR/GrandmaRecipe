@@ -1,0 +1,34 @@
+.CartItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+    text-align: left;
+}
+.Icon{
+    color: var(--color-positive);
+    align-self: flex-start;
+    padding:.4rem 0;
+}
+.Recipe{
+    flex-grow: 1;
+    font-size: 1.3rem;
+    padding: 0 .5rem;
+    align-self: flex-start;
+}
+.AddRemoveBox{
+    display: flex;
+    align-items: center;
+    color: var(--color-positive);
+    justify-content: space-between;
+    border: 1px solid var(--color-positive);
+    padding: .5rem 1rem;;
+    margin: 0 1rem;
+}
+.AddRemoveBox  *{
+    padding: .2rem .4rem;
+}
+.Price{
+    font-size: 1.2rem;
+    padding-left: 1rem;
+}

@@ -1,0 +1,38 @@
+.HeaderTabs{
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    margin-left: 5rem;
+    height: 100%;
+    box-sizing: border-box;
+}
+.HeaderTabs ul{
+    list-style: none;
+    display: flex;
+    height: 100%;
+    box-sizing: border-box;
+}
+.HeaderTabs ul li{
+    display: flex;
+    box-sizing: border-box;
+}
+
+.HeaderTabsText,
+.HeaderTabsText:link{
+    font-size: 2rem;
+    padding: 0rem 0rem;
+    margin: 0rem 3rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--color-light);
+    box-sizing: border-box;
+    border-bottom: 5px solid transparent;
+}
+
+.HeaderTabsText:active,.HeaderTabsText:visited {
+    border-bottom: 5px solid var(--color-accent);
+    box-sizing: border-box;
+}
+

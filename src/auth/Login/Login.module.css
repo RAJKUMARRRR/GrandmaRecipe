@@ -1,0 +1,26 @@
+.Login{
+    position: relative;
+    padding: 0 3rem;
+    text-align: left;
+}
+.LoginInput{
+    margin-top: 2.5rem;
+}
+.SubmitBox{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10rem;
+}
+.ForgotPassword{
+    color: var(--color-dark);
+}
+
+.Title{
+    display: block;
+    font-size: 3rem;
+    width: 80%;
+    text-align: left;
+    margin: 3rem 0;
+}

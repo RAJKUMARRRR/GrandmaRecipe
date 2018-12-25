@@ -1,0 +1,59 @@
+.MenuNavigation{
+    display: flex;
+    margin: 1rem 5rem;
+    align-items: center;
+    background-color: var(--color-light);
+    background-color: var(--color-light);
+    border-radius: 2px;
+    box-shadow: 0 0 3px var(--color-grey-light);
+    padding: 0 .5rem;
+    position: sticky;
+    top: 6rem;
+}
+.LeftArrow,.RightArrow{
+    font-size: 3rem;
+    color: var(--color-accent);
+}
+.NavItems{
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+
+.NavItem,.NavItem:link{
+    padding: 1rem 1rem;
+    margin: 0 .2rem;
+    text-decoration: none;
+    font-size: 1.7rem;
+    color: var(--color-dark);
+    border-bottom: 3px solid transparent;
+}
+
+.NavItem:hover{
+    border-bottom: 3px solid var(--color-grey-dark);
+}
+.NavItem:active,.NavItem:visited{
+    border-bottom: 3px solid var(--color-accent);
+}
+.Search{
+    background-color: var(--color-grey-white);
+    align-self: stretch;
+    margin: .5rem 0 .5rem .5rem;
+    border: 1px solid var(--color-grey-light);
+    border-radius: 5px;    
+    display: flex;
+    align-items: center;
+    padding: 0 .5rem;
+    color: var(--color-grey-dark);
+}
+.SearchIcon{
+    color: inherit;
+    font-size: 1.2rem;
+}
+.SearchInput{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-size: 1.5rem;
+    color: inherit;
+}

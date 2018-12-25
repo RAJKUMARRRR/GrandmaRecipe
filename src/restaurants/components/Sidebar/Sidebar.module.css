@@ -1,0 +1,23 @@
+.Sidebar{
+    flex-basis: 18%;
+    flex-shrink: 0;
+}
+
+.Content{
+    top: 8rem;
+    position: sticky;
+    border: 2px solid var(--color-grey-white);
+    box-shadow: 0 2px 3px var(--color-grey-light);
+    margin-left: 2rem;
+    padding: 5rem 0;
+}
+.Nav{
+
+}
+.Footer a{
+    text-decoration: none;
+    color: var(--color-light);
+}
+.Footer{
+    margin-top: 2rem;
+}

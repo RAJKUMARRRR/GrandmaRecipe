@@ -1,0 +1,43 @@
+.Cart{
+    flex-basis: 30%;
+    text-align: left;
+}
+.Wrapper{
+    top: 6rem;
+    width: 80%;
+    margin: 2rem 2rem 2rem 0;
+    height: 50vh;
+    position: sticky;
+}
+.Title{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.TotalItems{
+    color: var(--color-grey-dark);
+}
+.CartItems{
+    margin: 2rem 0;
+    max-height: 15rem;
+    overflow-y: scroll;
+}
+.TotalPrice{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+.TotalPriceText{
+
+}
+.ExtraCharges{
+    color: var(--color-grey-dark);
+    font-weight: 600;
+}
+.CheckoutButton{
+    border: none;
+    color: var(--color-light);
+    font-weight: 800;
+    margin-top: 3rem;
+}

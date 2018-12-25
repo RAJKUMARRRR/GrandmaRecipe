@@ -1,0 +1,13 @@
+.Title{
+    padding: 3rem 0;
+    font-size: 2.5rem;
+    text-align: left;
+}
+.Section{
+}
+.SectionGrid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(20rem,1fr)); 
+    grid-gap: 1rem;
+    grid-auto-rows: min-content;   
+}

@@ -1,0 +1,44 @@
+.HeaderNavigation{
+    display: flex;
+    align-items: center;
+}
+
+.HeaderNavigationList{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.NavItem{
+    display: flex;
+    align-items: center;
+    padding: 0 2rem;
+    cursor: pointer;
+}
+.Cart{
+    padding: 0 2rem;
+    font-size: 2rem;
+}
+
+.NavItemText{
+    font-size: 1.5rem;
+    padding-left: 1rem;
+}
+.NavItemIcon{
+    font-size: 1.5rem;
+}
+
+.DownloadAnimation{
+    transform-origin: center 90%;
+    animation: download .7s ease-in-out infinite;
+    animation-direction: alternate;
+}
+
+@keyframes download{
+    0%{
+        transform: rotate(40deg);
+    }
+    100%{
+        transform: rotate(-40deg);
+    }
+}
+

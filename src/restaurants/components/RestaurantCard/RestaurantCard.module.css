@@ -1,0 +1,99 @@
+.RestaurantCard{
+    border: 1px solid transparent;
+    transition: all .4s ease-in-out .1s;
+    background-color: var(--color-light);
+    cursor: pointer;
+}
+.RestaurantCard:hover{
+    border: 1px solid var(--color-grey-light);
+    box-shadow: 0 0px 15px var(--color-grey-light);
+    border-radius: 10px;
+}
+.RestaurantCard:hover .Image{
+    transform: scale(1.1);
+}
+.Wrapper{
+    margin: 1.8rem;
+    overflow: hidden;
+}
+.Image{
+    display: block;
+    width: 100%;
+    transition: all .5s;
+}
+.Title{
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-top: 1.2rem;
+    text-align: left;
+}
+.Recipes{
+    font-size: 1rem;
+    color: var(--color-grey-dark);
+    margin-top: .5rem;
+    text-align: left;
+}
+.RatingBox{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0 1rem 0;
+    border-bottom: 1px solid var(--color-grey-light);
+}
+.Rating{
+    display: flex;
+    align-items: center;
+    background-color: var(--color-positive);
+    color: var(--color-light);
+    padding: 3px 5px;
+    border-radius: 2px;
+}
+.RatingIcon{
+    font-size: .8rem;
+}
+.RatingText{
+    font-size: .8rem;
+    margin: 0 3px;
+}
+.Dot{
+}
+.Time{
+    color: var(--color-grey-dark);
+}
+.Rate{
+    color: var(--color-grey-dark);
+}
+.Offer{
+    display: flex;
+    padding: 1rem 0 1rem 0;
+    border-bottom: 1px solid var(--color-grey-light);
+    align-items: center;
+}
+.OfferIcon{
+    background: var(--primary-dark);
+    border-radius: 100px;
+    padding: .5rem;
+    color: var(--color-light);
+    font-size: .6rem;
+}
+.OfferText{
+    color: var(--primary-dark);
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 0 1rem;    
+}
+
+.Outlets{
+    display: flex;
+    padding: 1rem 0 0 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.OutletsText{
+    color: var(--color-grey-dark);
+    font-weight: 600;
+}
+.OutletsQuickView{
+    text-decoration: none;
+    color: var(--color-accent);
+    font-weight: 800;
+}

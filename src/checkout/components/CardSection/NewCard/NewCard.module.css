@@ -1,0 +1,93 @@
+
+.AddNewCardButton{
+    margin: 1rem 0;
+    padding: 1rem 1rem;
+    border-radius: 5px;
+    border: 1px solid var(--color-grey-light);
+    background-color: var(--color-grey-white);
+}
+
+.NewCard{
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 1rem;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.Row1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.InputTitle{
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: rgba(0,0,0,.7);
+}
+.Input{
+    background-color: white;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    box-shadow: 0 0 3px #ccc;
+    padding: 1rem .5rem;
+    margin-top: .5rem;
+    width: 100%;
+}
+.CardNumerWrapper{
+    flex-basis: 50%;
+}
+.ExpiryDateWrapper{
+    flex-basis: 25%;
+}
+.ExpiryDateWrapper input{
+    width: 30%;
+}
+.CVVWrappe{
+    flex-basis: 25%;
+}
+
+.Row2{
+    width: 100%;
+    margin-top: 1rem;
+}
+.Row2 input{
+    width: 49.5%;
+}
+.Row2InputWrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Row3{
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.Row3Col1{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.Row3Col2{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.RechargeButton{
+    background-color: green;
+    text-align: center;
+    padding: .7rem 2rem;
+    border-radius: 4px;
+    color: white;
+    margin-top: 1rem;
+}
